@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="white" />
+    <link rel="apple-touch-icon" href="images/jogo-da-velha-256.png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <h1>Jogo da Velha</h1>
+    <div class="container">
+        <div class="grid">
+            <div class="Caixa" onclick="Movimento(0)"></div>
+            <div class="Caixa" onclick="Movimento(1)"></div>
+            <div class="Caixa" onclick="Movimento(2)"></div>
+            <div class="Caixa" onclick="Movimento(3)"></div>
+            <div class="Caixa" onclick="Movimento(4)"></div>
+            <div class="Caixa" onclick="Movimento(5)"></div>
+            <div class="Caixa" onclick="Movimento(6)"></div>
+            <div class="Caixa" onclick="Movimento(7)"></div>
+            <div class="Caixa" onclick="Movimento(8)"></div>
+        </div>
+        <div class="mensagem" id="mensagem"></div>
+        <button id="Reiniciar" onclick="Resetar()">Reiniciar Jogo</button>
+    </div>
+    <script src="/js/index.js"></script>
+</body>
+</html>
